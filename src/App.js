@@ -16,9 +16,9 @@ export default function App() {
      <BrowserRouter>
       <Navbar/>
       <Sidbar/>
-      <Card/> 
+      {/* <Card/>  */}
       <Routes>
-      <Route path="/" element={<Chart/>} />
+      <Route path="/" element={<Table/>} />
       <Route path="/table" element={<Table/>} />
       </Routes>
       </BrowserRouter>
